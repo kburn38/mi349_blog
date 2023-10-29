@@ -15,5 +15,27 @@
             </ul>
         </nav>
     </header>
+    <h1>Contact Me</h1>
+    <p>Contact me if you need to for some reason</p>
+    <form>
+        <label>Name
+            <input type="text">
+        </label>
+        <label>Email Address
+            <input type="text">
+        </label>
+        <label>Reason for Contacting
+            <select>
+                <option value="Just saying hi">Just saying hi</option>
+                <option value="Need help from you">Need help from you</option>
+                <option value="Want to interview you">Want to interview you</option>
+                <option value="Other">Other</option>
+            </select>
+        </label>
+        <label>Description for contact
+            <textarea name="message" rows="30" cols="30">Give me a description of what you need</textarea>
+        </label>
+        <button type="button" onclick="alert('Contact Submitted')">Submit</button>
+    </form>
 </body>
 </html>
