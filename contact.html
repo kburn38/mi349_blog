@@ -3,17 +3,16 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="GllobalStyle.css">
     <title>Contact Me</title>
 </head>
 <body>
     <header>
-        <h1>Oddball Consoles - Contact Me</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul>
+    <h1>Oddball Consoles - Contact Me</h1>
+        <nav class="sticky">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="about.html">About Me</a></div>
+            <div><a href="contact.html">Contact Me</a></div>
         </nav>
     </header>
     <p>Contact me if you need to for some reason</p>
@@ -21,9 +20,11 @@
         <label>Name
             <input type="text">
         </label>
+        <div></div>
         <label>Email Address
             <input type="text">
         </label>
+        <div></div>
         <label>Reason for Contacting
             <select>
                 <option value="Just saying hi">Just saying hi</option>
@@ -32,8 +33,9 @@
                 <option value="Other">Other</option>
             </select>
         </label>
+        <div></div>
         <label>Description for contact
-            <textarea name="message" rows="30" cols="30">Give me a description of what you need</textarea>
+            <textarea name="message" rows="10" cols="30">Give me a description of what you need</textarea>
         </label>
         <button type="button" onclick="alert('Contact Submitted')">Submit</button>
     </form>

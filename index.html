@@ -3,34 +3,33 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="GllobalStyle.css">
     <title>Home</title>
 </head>
 <body>
     <header>
         <h1>Oddball Video Game Consoles</h1>
-        <p>Some people have the weirdest ideas</p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul>
+        <nav class="sticky">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="about.html">About Me</a></div>
+            <div><a href="contact.html">Contact Me</a></div>
         </nav>
     </header>
+    <p>Some people have the weirdest ideas</p>
     <section id="Blog-Posts">
         <h2>Blog Posts</h2>
-        <article class="post1">
+        <article class="post">
             <h3>JVC X'Eye - The Joining of Mediums</h3>
             <address class="author">Kyle Burnham</address>
             <time datetime="2023-10-28">October 28, 2023</time>
-            <p><img alt="JVC X'Eye, image sourced from wikipedia" src="Pictures/jvc-picture.jpg"></p>
+            <p><img class="floating-image" alt="JVC X'Eye, image sourced from wikipedia" src="Pictures/jvc-picture.jpg"></p>
             <p>The JVC X'Eye was created as a collaboration between JVC and Sega. The console itself is a Sega Genesis and a Sega CD put together in a form that was smaller than just having both systems and also only needed one AC adapter. On top of the combination, you could get a modification to the console to play 32X games until 2014, however you can still fit a regular 32X into the console with almost issue. This sounds like a great deal, however the console's high release price of $499 was something that turned away many consumers, not to mention that the Sega CD itself wasn't having the best sales on its own. The console itself is decently rare as only around 500,000 units were created before they were discontinued only a few months after first release. Despite what it may seem however, the console is genuinely a good buy as there are some gems in the Sega CD library and the CD drive on the X'Eye is better than the standard Sega CD console, making the sluggish CD format run much faster and more reliably</p>
         </article>
-        <article class="post2">
+        <article class="post">
             <h3>Philips CD-i - The Broken Fragments of Collaboration</h3>
             <address class="author">Kyle Burnham</address>
             <time datetime="2023-10-28">October 28, 2023</time>
-            <p><img alt="CD-i 910 Model, the first version of the console to hit store shelves" src="Pictures/CD-i.jpg"></p>
+            <p><img class="floating-image" alt="CD-i 910 Model, the first version of the console to hit store shelves" src="Pictures/CD-i.jpg"></p>
             <p>The Philips CD-i was a console released in 1991 that case the result of a failed collaboration between Nintendo and Philips. The console was meant to take advantage of the more powerful CD-ROM format which was gaining popularity in the game scene at the time. The system was marketed as a Home Entertainment System and had multimedia features like being able to play movies and regular audio CDs. The system was also one of the earlier consoles that could natively use the internet. Despite all that it offers, the console did not deliver well in the gaming scene as these days it is notorious for certain games in its library, namely <em>Hotel Mario</em>, <em>The Legend of Zelda: The Wand of Gamelon</em>, and <em>Link: The Faces of Evil</em>. Many who play those games say that they play terribly and the controllers are worse, however they work well enough for point and click games.</p>
             <p>Sales of the CD-i compared to other consoles at the time:
             <table>
@@ -62,7 +61,7 @@
             </table>
             <p>The Philips CD-i also had many models and revisions over its life cycle, some by Philips themselves and some by other companies. The console also had a very high starting price of $799 which was a hard sell for most consumers and thus, in 1998, the console was discontinued, only to live again through memes and collectors</p>
         </article>
-        <label>Sign up for my newsletter
+        <label class="newsletter">Sign up for my newsletter
             <input type="text">
         </label>
         <button type="button" onclick="alert('Subscribed!')">Subscribe</button>

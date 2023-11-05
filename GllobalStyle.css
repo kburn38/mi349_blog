@@ -1,0 +1,94 @@
+html {
+	background: #5965a6;
+}
+
+header {
+	background: white;
+	position: sticky;
+	position: -webkit-sticky;
+	top: -50px;
+}
+
+.sticky {
+	display: flex;
+	justify-content: center;
+}
+
+.sticky div {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 40px;
+	padding: 40px;
+	color: #242424;
+	border-top: 10px solid #242424;
+	background: #fff;
+}
+
+img {
+	width: 100%;
+}
+
+form > label {
+	display: flex;
+	margin: 20px;
+}
+
+input {
+	margin-left: 5px;
+}
+
+select {
+	background: rgba(0,0,255,0.1);
+	margin-left: 5px;
+}
+
+textarea {
+	background: rgba(0,0,255,0.1);
+	margin-left: 5px;
+}
+
+h1 {
+	font-size: 3em;
+	margin: 0;
+}
+
+.floating-image {
+	width: 20%;
+	float: left;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+#Blog-posts {
+	border-top: 1px dotted #ccc;
+}
+
+.post {
+	border-bottom: 1px dotted #ccc;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+input[type="text"] {
+	background: rgba(0,0,255,0.1);
+}
+
+button {
+	border-style: double;
+}
+
+button:hover {
+	background: rgba(0,0,255,0.2);
+}
+
+th, td {
+	background: rgba(0,0,255,0.1);
+}
